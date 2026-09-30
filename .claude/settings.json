@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/db.py *)",
+      "Bash(python -m common.profile *)",
+      "Bash(python scripts/cut.py init *)",
+      "Bash(python scripts/package.py *)",
+      "Bash(.venv/Scripts/python scripts/animate.py *)",
+      "Bash(.venv/Scripts/python scripts/captions.py *)",
+      "Bash(.venv/Scripts/python scripts/cut.py *)",
+      "Bash(.venv/Scripts/python scripts/thumb.py *)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Bash(claude --bare*)",
+      "Bash(*ANTHROPIC_API_KEY*)"
+    ]
+  }
+}

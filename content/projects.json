@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {"id": "portfolio", "name": "Portfolio site", "status": "planned", "stack": ["Next.js", "Vercel"],
+     "summary": "Personal portfolio rendered from profile.json and projects.json.", "repo": "", "live": ""},
+    {"id": "client-site", "name": "Friend's business site", "status": "planned", "stack": ["Static site", "Cloudflare Pages"],
+     "summary": "Mobile-first site with WhatsApp chat, Paystack payment page and Web3Forms contact form.", "repo": "", "live": ""},
+    {"id": "applytrack", "name": "ApplyTrack", "status": "planned", "stack": ["Next.js", "Supabase", "Vercel"],
+     "summary": "Job application tracker with auth, kanban, follow-ups and row-level security.", "repo": "", "live": ""},
+    {"id": "k8s-lab", "name": "Kubernetes hardening lab", "status": "planned", "stack": ["kind", "kube-bench", "Trivy"],
+     "summary": "Deliberately weak cluster scanned, hardened and rescanned with before and after scores.", "repo": "", "live": ""},
+    {"id": "ssh-analyser", "name": "SSH brute-force log analyser", "status": "planned", "stack": ["Python", "CodeQL"],
+     "summary": "Flags brute-force IPs in auth.log, mapped to MITRE ATT&CK T1110.", "repo": "", "live": ""},
+    {"id": "devsecops", "name": "DevSecOps review of ApplyTrack", "status": "planned", "stack": ["CodeQL", "Semgrep", "ZAP", "Trivy"],
+     "summary": "Security scan, fixes and report for my own app.", "repo": "", "live": ""},
+    {"id": "content-agent", "name": "Video content agent", "status": "in-progress", "stack": ["Claude Code", "Python", "FFmpeg", "faster-whisper", "SQLite"],
+     "summary": "Claude Code agent that takes a video from idea to script, captions, rough cut and upload package.", "repo": "", "live": ""}
+  ]
+}

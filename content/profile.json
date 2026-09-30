@@ -1,0 +1,17 @@
+{
+  "name": "Emmanuel Nwabuokei",
+  "location": "Lagos, Nigeria",
+  "headline": "Cybersecurity and cloud, learned in public",
+  "education": ["Miva Open University (in progress)"],
+  "certifications": ["KCNA (Kubernetes and Cloud Native Associate)"],
+  "skills": ["Kubernetes", "Docker", "Linux", "Python", "Next.js", "Video editing", "Audio recording and mixing"],
+  "experience": ["Trained sound technician"],
+  "target_roles": ["Web developer", "Cybersecurity intern", "Video editor"],
+  "links": {
+    "portfolio": "",
+    "github": "",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": ""
+  }
+}

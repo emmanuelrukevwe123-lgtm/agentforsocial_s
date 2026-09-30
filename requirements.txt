@@ -1,0 +1,4 @@
+# Runtime. db.py, package.py and common/ need only the standard library.
+faster-whisper==1.2.1   # captions.py: offline transcription with word timestamps (MIT)
+Pillow==12.3.0          # thumb.py
+imageio-ffmpeg==0.6.0   # bundled FFmpeg 7.1 with libass, used when ffmpeg is not on PATH

@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local data and media (large, personal)
+data/*.db
+data/ideas_batch.json
+data/fonts.conf
+data/fontcache/
+media/*
+!media/.gitkeep
+assets/stock/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Claude Code personal settings
+.claude/settings.local.json
