@@ -122,3 +122,7 @@ at 9:16 and 16:9, and `cut.py` adds the voice and paper-label captions.
 
 faster-whisper (MIT), FFmpeg (LGPL/GPL build via imageio-ffmpeg), Pillow (MIT-CMU). My own voice, so there
 are no TTS licence questions. Rendered without music: music is added inside each app at upload.
+
+## License
+
+[MIT](./LICENSE) © 2026 Emmanuel Nwabuokei
